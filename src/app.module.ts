@@ -5,7 +5,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb://localhost:27017/api-crud-nest'
+      'mongodb+srv://allandev:12345seis@cluster0.aquzq.mongodb.net/test'
     ),
     UsersModule
   ],
